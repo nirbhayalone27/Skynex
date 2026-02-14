@@ -1,27 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Skynex AI</title>
+  <title>Skynex AI Dashboard</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+
+<div class="container">
+
+  <!-- Header -->
+  <header>
     <h1>SKYNEX AI</h1>
-    <p class="subtitle">Multi-Agent Outreach System</p>
+    <p>Multi-Agent Outreach Control Panel</p>
+    <p style="font-size:14px;color:#6b7280;">
+      AI agents analyze a profile before generating personalized outreach
+    </p>
+    <p style="text-align:center;color:#10b981;font-weight:bold;">
+      AI Council Status: Active
+    </p>
+  </header>
 
-    <input id="name" placeholder="Lead Name">
-    <input id="role" placeholder="Role">
-    <textarea id="bio" placeholder="Bio"></textarea>
+ <!-- Lead Input -->
+<div class="panel">
+  <h3>Lead Profile Input</h3>
 
-    <button onclick="startAnalysis()">Start AI Council</button>
+  <input id="url" placeholder="Paste LinkedIn Profile URL">
 
-    <div id="agents" class="box"></div>
-    <div id="message" class="box"></div>
+  <textarea id="bio" placeholder="Paste or type the lead's bio (e.g. AI engineer, web developer, founder)"></textarea>
 
-    <button onclick="automation()">Run Automation</button>
-    <div id="automation" class="box"></div>
+  <button onclick="startAnalysis()">Analyze Profile</button>
+</div>
+
+
+  <!-- AI Agents -->
+  <h3>AI Agent Council</h3>
+  <div class="agent-grid">
+    <div class="agent">Personality Agent</div>
+    <div class="agent">Emotion Agent</div>
+    <div class="agent">Strategy Agent</div>
+    <div class="agent">Message Agent</div>
+    <div class="agent">Automation Agent</div>
   </div>
 
-  <script src="script.js"></script>
+  <!-- Agent Log -->
+  <div id="agents" class="panel log">
+    Awaiting profile input...
+  </div>
+
+  <!-- Messages -->
+  <div class="panel">
+    <h3>Generated Multi-Channel Messages</h3>
+
+    <div class="tabs">
+      <button onclick="showTab('email')">Email</button>
+      <button onclick="showTab('wa')">WhatsApp</button>
+      <button onclick="showTab('li')">LinkedIn</button>
+    </div>
+
+    <div id="email" class="tab">No message generated yet.</div>
+    <div id="wa" class="tab" style="display:none;"></div>
+    <div id="li" class="tab" style="display:none;"></div>
+  </div>
+
+  <!-- Analytics Dashboard -->
+  <h3>Communication Analytics</h3>
+  <div class="dashboard">
+    <div class="card">
+      <h3>Reply Probability</h3>
+      <p id="reply">--</p>
+    </div>
+    <div class="card">
+      <h3>Tone Match</h3>
+      <p id="tone">--</p>
+    </div>
+    <div class="card">
+      <h3>Strategy</h3>
+      <p id="strategy">--</p>
+    </div>
+  </div>
+
+  <!-- Strategy Chart -->
+  <div class="panel">
+    <h3>Strategy Analysis</h3>
+    <div class="bar"><span id="bar1"></span> Short Direct – 82%</div>
+    <div class="bar"><span id="bar2"></span> Formal – 55%</div>
+    <div class="bar"><span id="bar3"></span> Emotional – 40%</div>
+  </div>
+
+  <!-- Automation -->
+  <h3>Automation Engine</h3>
+  <button onclick="automation()">Run Automation</button>
+  <div id="automation" class="panel log">
+    Automation system idle...
+  </div>
+
+  <!-- Explanation Panel -->
+  <div class="panel">
+    <h3>Why Skynex Works</h3>
+    <ul>
+      <li>Analyzes personality before messaging</li>
+      <li>Multi-agent decision system</li>
+      <li>Strategy-first communication approach</li>
+      <li>Automation-ready architecture</li>
+    </ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
