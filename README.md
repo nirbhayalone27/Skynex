@@ -55,6 +55,8 @@ The platform combines:
                            ▼
                   Final Lead Dashboard
 
+---
+
 # ⚙️ Workflow Flowchart
 
 START
