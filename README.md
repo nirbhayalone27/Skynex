@@ -1,25 +1,30 @@
-Skynex Xenia — AI Powered Lead Generation System
+# 🚀 Skynex — AI Powered Lead Generation System
 
 An intelligent multi-agent lead generation and automation platform designed to discover, analyze, qualify, and manage high-quality leads using AI agents, workflow automation, and decision intelligence.
 
-🧠 Project Overview
+---
 
-Skynex Xenia is a smart AI-driven lead generation ecosystem where multiple intelligent agents collaborate to:
+## 🧠 Project Overview
 
-discover leads
-analyze lead quality
-automate outreach workflows
-organize prospect data
-optimize business acquisition pipelines
+Skynex is a smart AI-driven lead generation ecosystem where multiple intelligent agents collaborate to:
+- discover leads
+- analyze lead quality
+- automate outreach workflows
+- organize prospect data
+- optimize business acquisition pipelines
 
 The platform combines:
+- 🤖 Multi AI Agents
+- ⚡ n8n Workflow Automation
+- 🔗 API Integrations
+- 📊 Lead Intelligence
+- ☁️ Scalable Automation Systems
 
-🤖 Multi AI Agents
-⚡ n8n Workflow Automation
-🔗 API Integrations
-📊 Lead Intelligence
-☁️ Scalable Automation Systems
-🏗️ System Architecture
+---
+
+## 🏗️ System Architecture
+
+```text
                     ┌────────────────────┐
                     │    User Request    │
                     └─────────┬──────────┘
@@ -49,7 +54,13 @@ The platform combines:
                            │
                            ▼
                   Final Lead Dashboard
-⚙️ Workflow Flowchart
+```
+
+---
+
+## ⚙️ Workflow Flowchart
+
+```text
 START
   │
   ▼
@@ -81,95 +92,108 @@ Analytics Dashboard
   │
   ▼
 END
-✨ Core Features
-🤖 Multi AI Agent Architecture
+```
 
+---
+
+## ✨ Core Features
+
+### 🤖 Multi AI Agent Architecture
 Different AI agents perform:
+- lead research
+- lead scoring
+- automated outreach
+- workflow orchestration
 
-lead research
-lead scoring
-automated outreach
-workflow orchestration
-⚡ Automated Lead Discovery
+---
 
+### ⚡ Automated Lead Discovery
 Finds leads from:
+- websites
+- APIs
+- databases
+- business directories
 
-websites
-APIs
-databases
-business directories
-📊 Lead Scoring Engine
+---
 
+### 📊 Lead Scoring Engine
 Analyzes:
+- lead quality
+- engagement probability
+- business relevance
+- priority ranking
 
-lead quality
-engagement probability
-business relevance
-priority ranking
-📩 AI Outreach Automation
+---
 
+### 📩 AI Outreach Automation
 Automates:
+- cold emails
+- notifications
+- follow-ups
+- workflow triggers
 
-cold emails
-notifications
-follow-ups
-workflow triggers
-🔗 API & CRM Integration
+---
 
+### 🔗 API & CRM Integration
 Supports integration with:
+- CRMs
+- email systems
+- automation tools
+- databases
 
-CRMs
-email systems
-automation tools
-databases
-🛠️ Tech Stack
-Python
-n8n
-APIs
-AI Agents
-Automation Systems
-Git & GitHub
-Workflow Intelligence
-📊 Lead Generation Workflow Distribution
-Skynex Xenia Lead Generation System
+---
 
-Core operational distribution of the AI-powered lead generation architecture.
+## 🛠️ Tech Stack
 
-Lead Discovery AI
-System Share
-30%
-Lead Discovery AI
-Lead Scoring Engine
-Outreach Automation
-CRM Integration
-Analytics Dashboard
-🚀 Future Scope
-AI-powered personalized outreach
-Autonomous sales agents
-Predictive lead conversion analysis
-Multi-agent business acquisition systems
-Intelligent CRM ecosystems
-AI sales optimization platforms
-👨‍💻 Team Details
-Team Lead
-Nirbhay Alone
-Team Members
-Swaroop Khatri
-Atharv Ghongane
-Vanshika Hazara
+- Python
+- n8n
+- APIs
+- AI Agents
+- Automation Systems
+- Git & GitHub
+- Workflow Intelligence
 
-📍 Bharati Vidyapeeth College of Engineering, Pune
+---
 
-🎥 Demo & Screenshots
-Add:
-- Workflow screenshots
-- n8n automation images
-- Dashboard previews
-- AI agent diagrams
-- Video demo links
-📈 Vision
+## 📈 Lead Generation Pipeline
 
-Skynex Xenia aims to revolutionize lead generation using intelligent AI agents capable of automating business acquisition workflows and optimizing sales pipelines through smart decision systems.
+| Component | Function |
+|-----------|----------|
+| Research AI | Finds leads |
+| Scoring AI | Filters high-quality leads |
+| Outreach AI | Sends automated messages |
+| CRM Engine | Stores & manages leads |
+| Analytics Dashboard | Tracks workflow performance |
 
-⭐ Skynex Xenia
-“AI Agents + Automation + Lead Intelligence”
+---
+
+## 🚀 Future Scope
+
+- AI-powered personalized outreach
+- Autonomous sales agents
+- Predictive lead conversion analysis
+- Multi-agent business acquisition systems
+- Intelligent CRM ecosystems
+- AI sales optimization platforms
+
+---
+
+
+---
+
+## 🎥 Demo & Screenshots
+@
+@
+@
+
+---
+
+## 📈 Vision
+
+Skynex aims to revolutionize lead generation using intelligent AI agents capable of automating business acquisition workflows and optimizing sales pipelines through smart decision systems.
+
+---
+
+# ⭐ Skynex 
+
+### “AI Agents + Automation + Lead Intelligence”
