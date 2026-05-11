@@ -1,4 +1,4 @@
-# 🚀 Skynex Xenia — AI Powered Lead Generation System
+# 🚀 Skynex — AI Powered Lead Generation System
 
 An intelligent multi-agent lead generation and automation platform designed to discover, analyze, qualify, and manage high-quality leads using AI agents, workflow automation, and decision intelligence.
 
@@ -6,7 +6,7 @@ An intelligent multi-agent lead generation and automation platform designed to d
 
 # 🧠 Project Overview
 
-Skynex Xenia is a smart AI-driven lead generation ecosystem where multiple intelligent agents collaborate to:
+Skynex is a smart AI-driven lead generation ecosystem where multiple intelligent agents collaborate to:
 - discover leads
 - analyze lead quality
 - automate outreach workflows
@@ -55,7 +55,8 @@ The platform combines:
                            ▼
                   Final Lead Dashboard
 
-WORKFLOW FLOWCHART
+# ⚙️ Workflow Flowchart
+
 START
   │
   ▼
