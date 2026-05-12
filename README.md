@@ -1,3 +1,5 @@
+skynex-theta.vercel.app
+
 # 🚀 Skynex — AI Powered Lead Generation System
 
 An intelligent multi-agent lead generation and automation platform designed to discover, analyze, qualify, and manage high-quality leads using AI agents, workflow automation, and decision intelligence.
