@@ -10,7 +10,7 @@ An intelligent multi-agent lead generation and automation platform designed to d
 
 ## 🧠 Project Overview
 
-Skynex is a smart AI-driven lead generation ecosystem where multiple intelligent agents collaborate to:
+Skynex is a smart AI-driven lead generation ecosystem where multiple intelligent agents collaborate to :
 - discover leads
 - analyze lead quality
 - automate outreach workflows
